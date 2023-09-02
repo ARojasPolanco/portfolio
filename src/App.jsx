@@ -3,6 +3,7 @@ import './App.css'
 import Header from './components/Header'
 import Navbar from './components/Navbar'
 import AboutMe from './components/AboutMe'
+import AboutMeInfo from './components/AboutMeInfo'
 
 function App() {
   const [showNavbar, setShowNavbar] = useState(false)
@@ -21,6 +22,9 @@ function App() {
       </section>
       <section>
         <AboutMe />
+      </section>
+      <section>
+        <AboutMeInfo />
       </section>
     </main>
   )

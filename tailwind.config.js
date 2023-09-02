@@ -25,9 +25,19 @@ export default {
       'light-gray': '#656669',
       'light-blue-sky': '#3d6ce3',
       'very-light-blue': '#82c6e6',
-      'black': '#000000'
+      'black': '#000000',
+      'html': '#e44d26',
+      'css': '#264de4',
+      'javascript': '#f7df1e',
+      'tailwind': '#38bdf8',
+      'react': '#149eca',
+      'redux': '#764abc',
+      'typescript': '#3178c6',
+      'bootstrap': '#5b4282'
     }
   },
-  plugins: [],
+  plugins: [
+    require('tailwindcss-animated')
+  ],
 }
 
