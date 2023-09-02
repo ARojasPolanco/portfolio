@@ -13,11 +13,15 @@ function App() {
 
   return (
     <main className='relative bg-bg-300 min-h-screen w-full overflow-hidden'>
-      <Header handleShowNavbar={handleShowNavbar} />
+      <section>
+        <Header handleShowNavbar={handleShowNavbar} />
+      </section>
       <section className={`absolute top-0 ${showNavbar ? 'right-0' : '-right-96'} transition-all duration-300`}>
         <Navbar handleShowNavbar={handleShowNavbar} />
       </section>
-      <AboutMe />
+      <section>
+        <AboutMe />
+      </section>
     </main>
   )
 }

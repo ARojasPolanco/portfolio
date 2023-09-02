@@ -1,6 +1,6 @@
 const AboutMe = () => {
     return (
-        <section className="text-3xl font-montserrat font-bold text-white p-2">
+        <section className="text-3xl font-montserrat font-bold text-white p-3 mt-8 h-[150px] w-[300px] mx-auto bg-light-gray/10 rounded-xl border-[1px] border-accent-200/30">
             <h1>Soy <span className="text-light-blue-sky borderWhite">Alan Polanco</span> programador</h1>
             <article className="text-[3rem] mt-4">
                 <span className="absolute waveBorder">
