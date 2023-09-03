@@ -4,42 +4,62 @@ const AboutMeInfo = () => {
             <article className="font-inter text-xl text-white font-medium underline underline-offset-8">
                 <h2>Sobre mi</h2>
             </article>
-            <article className="text-base font-montserrat text-white text-center p-1 w-[300px]">
+            <article className="text-base font-montserrat text-white text-center p-1 w-[320px]">
                 <p>Me desempeño en la creción de proyectos, utilizando herramientas de programación Front-End. <br />
                     Siempre en constante aprendizaje, mejorando mis habilidades.</p>
             </article>
             <section>
-                <article className="font-inter text-xl text-white font-medium underline underline-offset-8 text-center mb-4">
+                <article className="font-inter text-xl text-white font-medium text-center mb-8 underline underline-offset-8">
                     <h2>Mis habilidades</h2>
                 </article>
-                <article className="text-[40px] flex flex-wrap justify-center gap-4 w-[250px] animate-shake animate-thrice animate-duration-500 animate-ease-in-ou">
-                    <div className="text-html hover:scale-110">
-                        <i className='bx bxl-html5' ></i>
-                    </div>
-                    <div className="text-css hover:scale-110">
-                        <i className='bx bxl-css3' ></i>
-                    </div>
-                    <div className="text-javascript hover:scale-110">
-                        <i className='bx bxl-javascript' ></i>
-                    </div>
-                    <div className="text-tailwind hover:scale-110">
-                        <i className='bx bxl-tailwind-css' ></i>
-                    </div>
-                    <div className="text-react hover:scale-110">
-                        <i className='bx bxl-react' ></i>
-                    </div>
-                    <div className="text-redux hover:scale-110">
-                        <i className='bx bxl-redux' ></i>
-                    </div>
-                    <div className="text-typescript hover:scale-110">
-                        <i className='bx bxl-typescript' ></i>
-                    </div>
-                    <div className="text-bootstrap hover:scale-110">
-                        <i className='bx bxl-bootstrap' ></i>
-                    </div>
+                <article className="grid grid-rows-[auto,auto] place-items-center gap-8 min-[645px]:grid-cols-[auto,auto] min-[500px]:grid-rows-none">
+                    <article className="grid order-1 place-items-center bg-light-gray/10 rounded-xl border-[1px] border-accent-200/30 w-[300px] h-[250px] text-white font-inter text-2xl">
+                        <h3 className="col-span-2">Librerias</h3>
+                        <div className="w-[300px] bg-light-gray h-[1px]"></div>
+                        <div className="text-react col-span-2 text-[50px] animate-spin animate-infinite animate-duration-[3000ms] animate-ease-linear animate-normal">
+                            <i className='bx bxl-react' ></i>
+                        </div>
+                        <h4 className="text-lg">React</h4>
+                    </article>
+                    <article className="grid grid-rows-[auto,auto] order-2 place-items-center bg-light-gray/10 rounded-xl border-[1px] border-accent-200/30 w-[300px] h-[250px] text-white font-inter text-2xl">
+                        <h3 className="col-span-2 p-6">Lenguajes básicos</h3>
+                        <div className="w-[300px] bg-light-gray h-[1px]"></div>
+                        <div className="text-html text-[50px] col-span-2 animate-flip-down animate-infinite animate-duration-[2000ms]">
+                            <i className='bx bxl-html5' ></i>
+                        </div>
+                        <h4 className="text-lg col-span-2">HTML</h4>
+                        <div className="text-css text-[50px] col-span-2 animate-flip-down animate-infinite animate-duration-[2000ms]">
+                            <i className='bx bxl-css3' ></i>
+                        </div>
+                        <h4 className="text-lg col-span-2">CSS</h4>
+                    </article>
+                    <article className="grid grid-rows-[auto,auto] grid-cols-[auto,auto] order-3 place-items-center bg-light-gray/10 rounded-xl border-[1px] border-accent-200/30 w-[300px] h-[250px] text-white font-inter text-2xl">
+                        <h3 className="col-span-2 p-6">Otros lenguajes</h3>
+                        <div className="w-[300px] bg-light-gray h-[1px]"></div>
+                        <div className="text-javascript text-[50px] col-span-2 animate-fade-up animate-infinite animate-duration-[2000ms]">
+                            <i className='bx bxl-javascript' ></i>
+                        </div>
+                        <h4 className="text-lg">JavaScript</h4>
+                        <div className="text-typescript text-[50px] col-span-2 animate-fade-up animate-infinite animate-duration-[2000ms]">
+                            <i className='bx bxl-typescript' ></i>
+                        </div>
+                        <h4 className="text-lg">TypeScrpit</h4>
+                    </article>
+                    <article className="grid grid-rows-[auto,auto] grid-cols-[auto,auto] order-4 place-items-center bg-light-gray/10 rounded-xl border-[1px] border-accent-200/30 w-[300px] h-[250px] text-white font-inter text-2xl">
+                        <h3 className="col-span-2  p-6">Frameworks</h3>
+                        <div className="w-[300px] bg-light-gray h-[1px]"></div>
+                        <div className="text-tailwind text-[50px] col-span-2 animate-shake animate-infinite animate-duration-[2000ms]">
+                            <i className='bx bxl-tailwind-css' ></i>
+                        </div>
+                        <h4 className="text-lg">Tailwind</h4>
+                        <div className="text-bootstrap text-[50px] col-span-2 animate-shake animate-infinite animate-duration-[2000ms]">
+                            <i className='bx bxl-bootstrap' ></i>
+                        </div>
+                        <h4 className="text-lg">Bootstrap</h4>
+                    </article>
                 </article>
             </section>
-        </section>
+        </section >
     )
 }
 

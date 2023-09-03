@@ -17,7 +17,7 @@ function App() {
       <section>
         <Header handleShowNavbar={handleShowNavbar} />
       </section>
-      <section className={`absolute top-0 ${showNavbar ? 'right-0' : '-right-96'} transition-all duration-300`}>
+      <section className={`absolute w-full top-0 ${showNavbar ? 'right-0' : '-right-full'} transition-all duration-300`}>
         <Navbar handleShowNavbar={handleShowNavbar} />
       </section>
       <section>
