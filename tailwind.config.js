@@ -33,7 +33,8 @@ export default {
       'react': '#149eca',
       'redux': '#764abc',
       'typescript': '#3178c6',
-      'bootstrap': '#5b4282'
+      'bootstrap': '#5b4282',
+      'netlify': '#25c7b7',
     }
   },
   plugins: [

@@ -4,6 +4,7 @@ import Header from './components/Header'
 import Navbar from './components/Navbar'
 import AboutMe from './components/AboutMe'
 import AboutMeInfo from './components/AboutMeInfo'
+import Projects from './components/Projects'
 
 function App() {
   const [showNavbar, setShowNavbar] = useState(false)
@@ -13,7 +14,7 @@ function App() {
   }
 
   return (
-    <main className='relative bg-bg-300 min-h-screen w-full overflow-hidden'>
+    <main className='relative bg-bg-300 min-h-screen w-full overflow-hidden font-inter'>
       <section>
         <Header handleShowNavbar={handleShowNavbar} />
       </section>
@@ -25,6 +26,9 @@ function App() {
       </section>
       <section>
         <AboutMeInfo />
+      </section>
+      <section>
+        <Projects />
       </section>
     </main>
   )
