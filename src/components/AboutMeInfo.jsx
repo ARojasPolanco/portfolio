@@ -1,6 +1,9 @@
+import { Element } from "react-scroll"
+
 const AboutMeInfo = () => {
     return (
         <section className="flex flex-col justify-center items-center mt-8 gap-8">
+            <Element name={'AboutMe'} />
             <article className="font-inter text-xl text-white font-medium flex items-center gap-1">
                 <h2 className="text-very-light-blue p-2">#</h2>
                 <h2>Sobre mi</h2>

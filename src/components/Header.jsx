@@ -1,3 +1,5 @@
+import { Link } from "react-scroll"
+
 const Header = ({ handleShowNavbar }) => {
     return (
         <section className="flex items-center justify-between max-w-[645px] mx-auto">
@@ -11,20 +13,20 @@ const Header = ({ handleShowNavbar }) => {
                 </div>
             </article>
             <section className="flex justify-center items-center gap-4 px-2 text-white font-montserrat max-[644px]:hidden">
-                <article className="btn px-8">
-                    <a href="">Inicio</a>
-                </article>
-                <article className="btn">
-                    <a href="">Sobre mi</a>
-                </article>
-                <article className="btn">
-                    <a href="">Proyectos</a>
-                </article>
-                <article className="btn">
-                    <a href="">Contacto</a>
-                </article>
+                <Link className="btn px-8" to="Home" smooth={true} duration={300}>
+                    Inicio
+                </Link>
+                < Link className="btn" to="AboutMe" smooth={true} duration={300}>
+                    Sobre mi
+                </Link>
+                <Link className="btn" to="Projects" smooth={true} duration={300}>
+                    Proyectos
+                </Link>
+                <Link className="btn" to="Contact" smooth={true} duration={300}>
+                    Contacto
+                </Link>
             </section>
-        </section>
+        </section >
     )
 }
 

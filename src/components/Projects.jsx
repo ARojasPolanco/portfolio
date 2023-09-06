@@ -1,6 +1,9 @@
+import { Element } from "react-scroll"
+
 const Projects = () => {
     return (
         <section className="max-w-[800px] mx-auto">
+            <Element name={'Projects'} />
             <article className="font-inter text-xl text-white font-medium flex items-center gap-1">
                 <h2 className="text-very-light-blue p-2">#</h2>
                 <h2>Proyectos</h2>
@@ -33,11 +36,11 @@ const Projects = () => {
                     <article className="flex justify-center gap-6 p-2">
                         <div className="bg-light-gray px-2 rounded-md text-white text-lg flex items-center gap-1">
                             <i className='bx bxl-github'></i>
-                            <a href="">GitHub</a>
+                            <a href="https://github.com/ARojasPolanco/CarritoDeCompras" target="_blank">GitHub</a>
                         </div>
                         <div className="bg-light-gray px-2 rounded-md text-netlify text-lg flex items-center gap-1">
                             <i className='bx bxl-netlify'></i>
-                            <a className="text-white" href="">Netlify</a>
+                            <a className="text-white" href="https://carrito-de-compras-academlo1.netlify.app" target="_blank">Netlify</a>
                         </div>
                     </article>
                 </article>
@@ -67,11 +70,11 @@ const Projects = () => {
                     <article className="flex justify-center gap-6 p-2">
                         <div className="bg-light-gray px-2 rounded-md text-white text-lg flex items-center gap-1">
                             <i className='bx bxl-github'></i>
-                            <a href="">GitHub</a>
+                            <a href="https://github.com/ARojasPolanco/Project-1-react" target="_blank">GitHub</a>
                         </div>
                         <div className="bg-light-gray px-2 rounded-md text-netlify text-lg flex items-center gap-1">
                             <i className='bx bxl-netlify'></i>
-                            <a className="text-white" href="">Netlify</a>
+                            <a className="text-white" href="https://project-1-react-academlo.netlify.app" target="_blank">Netlify</a>
                         </div>
                     </article>
                 </article>
@@ -101,11 +104,11 @@ const Projects = () => {
                     <article className="flex justify-center gap-6 p-2">
                         <div className="bg-light-gray px-2 rounded-md text-white text-lg flex items-center gap-1">
                             <i className='bx bxl-github'></i>
-                            <a href="">GitHub</a>
+                            <a href="https://github.com/ARojasPolanco/Project-2-react" target="_blank">GitHub</a>
                         </div>
                         <div className="bg-light-gray px-2 rounded-md text-netlify text-lg flex items-center gap-1">
                             <i className='bx bxl-netlify'></i>
-                            <a className="text-white" href="">Netlify</a>
+                            <a className="text-white" href="https://weather-api-academlo.netlify.app" target="_blank">Netlify</a>
                         </div>
                     </article>
                 </article>
@@ -135,11 +138,11 @@ const Projects = () => {
                     <article className="flex justify-center gap-6 p-2">
                         <div className="bg-light-gray px-2 rounded-md text-white text-lg flex items-center gap-1">
                             <i className='bx bxl-github'></i>
-                            <a href="">GitHub</a>
+                            <a href="https://github.com/ARojasPolanco/preject-3-academlo" target="_blank">GitHub</a>
                         </div>
                         <div className="bg-light-gray px-2 rounded-md text-netlify text-lg flex items-center gap-1">
                             <i className='bx bxl-netlify'></i>
-                            <a className="text-white" href="">Netlify</a>
+                            <a className="text-white" href="https://rickandmortydimensions.netlify.app" target="_blank">Netlify</a>
                         </div>
                     </article>
                 </article>
@@ -152,7 +155,7 @@ const Projects = () => {
                     </header>
                     <div className="w-[300px] h-[1px] bg-light-gray"></div>
                     <article className="p-2 text-lg text-white text-center font-montserrat">
-                        <h5>Rick And Morty</h5>
+                        <h5>User crud API</h5>
                     </article>
                     <div className="w-[300px] h-[1px] bg-light-gray"></div>
                     <article className="flex items-center justify-center text-[40px] p-4">
@@ -169,11 +172,11 @@ const Projects = () => {
                     <article className="flex justify-center gap-6 p-2">
                         <div className="bg-light-gray px-2 rounded-md text-white text-lg flex items-center gap-1">
                             <i className='bx bxl-github'></i>
-                            <a href="">GitHub</a>
+                            <a href="https://github.com/ARojasPolanco/Project-4" target="_blank">GitHub</a>
                         </div>
                         <div className="bg-light-gray px-2 rounded-md text-netlify text-lg flex items-center gap-1">
                             <i className='bx bxl-netlify'></i>
-                            <a className="text-white" href="">Netlify</a>
+                            <a className="text-white" href="https://userscrudapi.netlify.app" target="_blank">Netlify</a>
                         </div>
                     </article>
                 </article>
@@ -203,11 +206,11 @@ const Projects = () => {
                     <article className="flex justify-center gap-6 p-2">
                         <div className="bg-light-gray px-2 rounded-md text-white text-lg flex items-center gap-1">
                             <i className='bx bxl-github'></i>
-                            <a href="">GitHub</a>
+                            <a href="https://github.com/ARojasPolanco/Project-5" target="_blank">GitHub</a>
                         </div>
                         <div className="bg-light-gray px-2 rounded-md text-netlify text-lg flex items-center gap-1">
                             <i className='bx bxl-netlify'></i>
-                            <a className="text-white" href="">Netlify</a>
+                            <a className="text-white" href="https://pokedexapiacademlo.netlify.app" target="_blank">Netlify</a>
                         </div>
                     </article>
                 </article>

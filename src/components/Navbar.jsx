@@ -1,3 +1,5 @@
+import { Link } from "react-scroll"
+
 const Navbar = ({ handleShowNavbar }) => {
     return (
         <section className="min-h-screen w-full fixed backdrop-blur-sm z-10">
@@ -8,18 +10,18 @@ const Navbar = ({ handleShowNavbar }) => {
                         <button><i className='bx bx-chevrons-right' ></i></button>
                     </div>
                 </article>
-                <article className="btn px-8">
-                    <a href="">Inicio</a>
-                </article>
-                <article className="btn">
-                    <a href="">Sobre mi</a>
-                </article>
-                <article className="btn">
-                    <a href="">Proyectos</a>
-                </article>
-                <article className="btn">
-                    <a href="">Contacto</a>
-                </article>
+                <Link className="btn px-8" to="Home" smooth={true} duration={300}>
+                    Inicio
+                </Link>
+                < Link className="btn" to="AboutMe" smooth={true} duration={300}>
+                    Sobre mi
+                </Link>
+                <Link className="btn" to="Projects" smooth={true} duration={300}>
+                    Proyectos
+                </Link>
+                <Link className="btn" to="Contact" smooth={true} duration={300}>
+                    Contacto
+                </Link>
             </section>
         </section>
     )

@@ -1,28 +1,28 @@
-import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser'
+import { Element } from 'react-scroll';
 
 const Contact = ({ setShowModal }) => {
-    const form = useRef();
 
     const sendEmail = (e) => {
         e.preventDefault();
-        e.target.reset()
 
-        emailjs.sendForm('service_dfq97pg', 'template_4m0dk7j', form.current, 'ac9w6BdON9jxsQ2OZ')
+        emailjs.sendForm('service_dfq97pg', 'template_4m0dk7j', e.target, 'ac9w6BdON9jxsQ2OZ')
             .then((result) => {
-                setShowModal(result.text);
+                setShowModal(result.text)
+                e.target.reset();
             }, (error) => {
                 console.log(error.text);
             });
     };
     return (
         <section className='flex flex-col items-center p-2'>
+            <Element name={'Contact'} />
             <article className="font-inter text-xl text-white font-medium flex items-center gap-1">
                 <h2 className="text-very-light-blue p-2">#</h2>
                 <h2>Contacto</h2>
                 <div className="h-[2px] w-[150px] bg-white/70"></div>
             </article>
-            <form ref={form} onSubmit={sendEmail} className='flex flex-col p-2 gap-2 items-center bg-light-gray/20 w-[280px] border-[1px] border-light-gray rounded-md'>
+            <form onSubmit={sendEmail} className='flex flex-col p-2 gap-2 items-center bg-light-gray/20 w-[280px] border-[1px] border-light-gray rounded-md'>
                 <label className='font-montserrat text-white'>Nombre</label>
                 <input autoComplete='off' type="text" name="user_name" className='bg-light-gray text-white outline-none' />
                 <label className='font-montserrat text-white'>Email</label>

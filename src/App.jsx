@@ -19,28 +19,35 @@ function App() {
 
   return (
     <main className='relative bg-bg-300 min-h-screen w-full overflow-hidden font-inter'>
-      <section>
-        <Header handleShowNavbar={handleShowNavbar} />
+      <section className='max-w-[700px] mx-auto border-[1px] border-very-light-blue rounded-md p-2'>
+        <section>
+          <Header handleShowNavbar={handleShowNavbar} />
+        </section>
+        <section className={`absolute w-full top-0 ${showNavbar ? 'right-0' : '-right-full'} transition-all duration-300`}>
+          <Navbar handleShowNavbar={handleShowNavbar} />
+        </section>
+        <section>
+          <AboutMe />
+        </section>
+        <section >
+          <AboutMeInfo />
+        </section>
+        <section>
+          <Projects />
+        </section>
+        <section>
+          <Contact setShowModal={setShowModal} />
+        </section>
+        <section className='fixed -left-24 blur-[8px]'>
+          <div>
+            <img src="/images/hand-bg.png" alt="" />
+          </div>
+        </section>
+        <section>
+          <Modal setShowModal={setShowModal} showModal={showModal} />
+        </section>
       </section>
-      <section className={`absolute w-full top-0 ${showNavbar ? 'right-0' : '-right-full'} transition-all duration-300`}>
-        <Navbar handleShowNavbar={handleShowNavbar} />
-      </section>
-      <section>
-        <AboutMe />
-      </section>
-      <section>
-        <AboutMeInfo />
-      </section>
-      <section>
-        <Projects />
-      </section>
-      <section>
-        <Contact setShowModal={setShowModal} />
-      </section>
-      <section>
-        <Modal setShowModal={setShowModal} showModal={showModal} />
-      </section>
-    </main>
+    </main >
   )
 }
 
