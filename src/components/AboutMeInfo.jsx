@@ -28,11 +28,11 @@ const AboutMeInfo = () => {
                     <article className="grid grid-rows-[auto,auto] order-2 place-items-center bg-light-gray/10 rounded-xl border-[1px] border-accent-200/30 w-[300px] h-[250px] text-white font-inter text-2xl">
                         <h3 className="col-span-2 p-6">Lenguajes básicos</h3>
                         <div className="w-[300px] bg-light-gray h-[1px]"></div>
-                        <div className="text-html text-[50px] col-span-2 animate-shake animate-infinite animate-duration-[2000ms]">
+                        <div className="text-html text-[50px] col-span-2">
                             <i className='bx bxl-html5' ></i>
                         </div>
                         <h4 className="text-lg col-span-2">HTML</h4>
-                        <div className="text-css text-[50px] col-span-2 animate-shake animate-infinite animate-duration-[2000ms]">
+                        <div className="text-css text-[50px] col-span-2">
                             <i className='bx bxl-css3' ></i>
                         </div>
                         <h4 className="text-lg col-span-2">CSS</h4>
@@ -40,11 +40,11 @@ const AboutMeInfo = () => {
                     <article className="grid grid-rows-[auto,auto] grid-cols-[auto,auto] order-3 place-items-center bg-light-gray/10 rounded-xl border-[1px] border-accent-200/30 w-[300px] h-[250px] text-white font-inter text-2xl">
                         <h3 className="col-span-2 p-6">Otros lenguajes</h3>
                         <div className="w-[300px] bg-light-gray h-[1px]"></div>
-                        <div className="text-javascript text-[50px] col-span-2 animate-shake animate-infinite animate-duration-[2000ms]">
+                        <div className="text-javascript text-[50px] col-span-2">
                             <i className='bx bxl-javascript' ></i>
                         </div>
                         <h4 className="text-lg">JavaScript</h4>
-                        <div className="text-typescript text-[50px] col-span-2 animate-shake animate-infinite animate-duration-[2000ms]">
+                        <div className="text-typescript text-[50px] col-span-2">
                             <i className='bx bxl-typescript' ></i>
                         </div>
                         <h4 className="text-lg">TypeScrpit</h4>
@@ -52,11 +52,11 @@ const AboutMeInfo = () => {
                     <article className="grid grid-rows-[auto,auto] grid-cols-[auto,auto] order-4 place-items-center bg-light-gray/10 rounded-xl border-[1px] border-accent-200/30 w-[300px] h-[250px] text-white font-inter text-2xl">
                         <h3 className="col-span-2  p-6">Frameworks</h3>
                         <div className="w-[300px] bg-light-gray h-[1px]"></div>
-                        <div className="text-tailwind text-[50px] col-span-2 animate-shake animate-infinite animate-duration-[2000ms]">
+                        <div className="text-tailwind text-[50px] col-span-2">
                             <i className='bx bxl-tailwind-css' ></i>
                         </div>
                         <h4 className="text-lg">Tailwind</h4>
-                        <div className="text-bootstrap text-[50px] col-span-2 animate-shake animate-infinite animate-duration-[2000ms]">
+                        <div className="text-bootstrap text-[50px] col-span-2">
                             <i className='bx bxl-bootstrap' ></i>
                         </div>
                         <h4 className="text-lg">Bootstrap</h4>

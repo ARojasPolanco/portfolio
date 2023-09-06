@@ -10,7 +10,7 @@ const Projects = () => {
                 {/* 1 */}
                 <article className="flex flex-col w-[300px] border-[1px] border-light-gray rounded-xl overflow-hidden bg-bg-100/30">
                     <header>
-                        <div>
+                        <div className="hover:scale-110">
                             <img src="/images/ecommerce.png" alt="" />
                         </div>
                     </header>
@@ -32,7 +32,7 @@ const Projects = () => {
                     </article>
                     <article className="flex justify-center gap-6 p-2">
                         <div className="bg-light-gray px-2 rounded-md text-white text-lg flex items-center gap-1">
-                            <i class='bx bxl-github'></i>
+                            <i className='bx bxl-github'></i>
                             <a href="">GitHub</a>
                         </div>
                         <div className="bg-light-gray px-2 rounded-md text-netlify text-lg flex items-center gap-1">
@@ -44,7 +44,7 @@ const Projects = () => {
                 {/* 2 */}
                 <article className="flex flex-col w-[300px] border-[1px] border-light-gray rounded-xl overflow-hidden bg-bg-100/30">
                     <header>
-                        <div>
+                        <div className="hover:scale-110">
                             <img src="/images/randomphrases.png" alt="" />
                         </div>
                     </header>
@@ -78,7 +78,7 @@ const Projects = () => {
                 {/* 3 */}
                 <article className="flex flex-col w-[300px] border-[1px] border-light-gray rounded-xl overflow-hidden bg-bg-100/30">
                     <header>
-                        <div>
+                        <div className="hover:scale-110">
                             <img src="/images/weatherapp.png" alt="" />
                         </div>
                     </header>
@@ -100,7 +100,7 @@ const Projects = () => {
                     </article>
                     <article className="flex justify-center gap-6 p-2">
                         <div className="bg-light-gray px-2 rounded-md text-white text-lg flex items-center gap-1">
-                            <i class='bx bxl-github'></i>
+                            <i className='bx bxl-github'></i>
                             <a href="">GitHub</a>
                         </div>
                         <div className="bg-light-gray px-2 rounded-md text-netlify text-lg flex items-center gap-1">
@@ -112,7 +112,7 @@ const Projects = () => {
                 {/* 4 */}
                 <article className="flex flex-col w-[300px] border-[1px] border-light-gray rounded-xl overflow-hidden bg-bg-100/30">
                     <header>
-                        <div>
+                        <div className="hover:scale-110">
                             <img src="/images/rickandmorty.png" alt="" />
                         </div>
                     </header>
@@ -134,7 +134,7 @@ const Projects = () => {
                     </article>
                     <article className="flex justify-center gap-6 p-2">
                         <div className="bg-light-gray px-2 rounded-md text-white text-lg flex items-center gap-1">
-                            <i class='bx bxl-github'></i>
+                            <i className='bx bxl-github'></i>
                             <a href="">GitHub</a>
                         </div>
                         <div className="bg-light-gray px-2 rounded-md text-netlify text-lg flex items-center gap-1">
@@ -146,7 +146,7 @@ const Projects = () => {
                 {/* 5 */}
                 <article className="flex flex-col w-[300px] border-[1px] border-light-gray rounded-xl overflow-hidden bg-bg-100/30">
                     <header>
-                        <div>
+                        <div className="hover:scale-110">
                             <img src="/images/usercrudapi.png" alt="" />
                         </div>
                     </header>
@@ -168,7 +168,7 @@ const Projects = () => {
                     </article>
                     <article className="flex justify-center gap-6 p-2">
                         <div className="bg-light-gray px-2 rounded-md text-white text-lg flex items-center gap-1">
-                            <i class='bx bxl-github'></i>
+                            <i className='bx bxl-github'></i>
                             <a href="">GitHub</a>
                         </div>
                         <div className="bg-light-gray px-2 rounded-md text-netlify text-lg flex items-center gap-1">
@@ -180,7 +180,7 @@ const Projects = () => {
                 {/* 6 */}
                 <article className="flex flex-col w-[300px] border-[1px] border-light-gray rounded-xl overflow-hidden bg-bg-100/30">
                     <header>
-                        <div>
+                        <div className="hover:scale-110">
                             <img src="/images/pokemonapi.png" alt="" />
                         </div>
                     </header>
@@ -202,7 +202,7 @@ const Projects = () => {
                     </article>
                     <article className="flex justify-center gap-6 p-2">
                         <div className="bg-light-gray px-2 rounded-md text-white text-lg flex items-center gap-1">
-                            <i class='bx bxl-github'></i>
+                            <i className='bx bxl-github'></i>
                             <a href="">GitHub</a>
                         </div>
                         <div className="bg-light-gray px-2 rounded-md text-netlify text-lg flex items-center gap-1">

@@ -5,13 +5,17 @@ import Navbar from './components/Navbar'
 import AboutMe from './components/AboutMe'
 import AboutMeInfo from './components/AboutMeInfo'
 import Projects from './components/Projects'
+import Contact from './components/Contact'
+import Modal from './components/Modal'
 
 function App() {
+  const [showModal, setShowModal] = useState(false)
   const [showNavbar, setShowNavbar] = useState(false)
 
   const handleShowNavbar = () => {
     setShowNavbar(!showNavbar)
   }
+
 
   return (
     <main className='relative bg-bg-300 min-h-screen w-full overflow-hidden font-inter'>
@@ -29,6 +33,12 @@ function App() {
       </section>
       <section>
         <Projects />
+      </section>
+      <section>
+        <Contact setShowModal={setShowModal} />
+      </section>
+      <section>
+        <Modal setShowModal={setShowModal} showModal={showModal} />
       </section>
     </main>
   )
