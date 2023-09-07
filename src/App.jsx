@@ -24,7 +24,7 @@ function App() {
 
   return (
     <main className='relative min-h-screen w-full overflow-hidden font-inter bg-[url(/images/bg-image.jpg)] bg-cover bg-right-top'>
-      <section className='max-w-[700px] mx-auto border-[1px] border-very-light-blue rounded-md p-2'>
+      <section className='max-w-[700px] mx-auto border-[1px] border-very-light-blue rounded-md'>
         <section>
           <Header handleShowNavbar={handleShowNavbar} />
         </section>

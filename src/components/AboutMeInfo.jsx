@@ -19,7 +19,7 @@ const AboutMeInfo = () => {
                     <h2>Mis habilidades</h2>
                     <div className="h-[2px] w-[110px] bg-white/70"></div>
                 </article>
-                <article className="grid grid-rows-[auto,auto] place-items-center gap-8 max-w-[800px] min-[645px]:grid-cols-[auto,auto] min-[500px]:grid-rows-none">
+                <article className="grid grid-rows-[auto,auto] place-items-center gap-8 min-[645px]:grid-cols-[auto,auto] max-w-[800px] min-[500px]:grid-rows-none">
                     <article className="grid order-1 place-items-center bg-light-gray/10 rounded-xl border-[1px] border-accent-200/30 w-[300px] h-[250px] text-white font-inter text-2xl">
                         <h3 className="col-span-2">Librerias</h3>
                         <div className="w-[300px] bg-light-gray h-[1px]"></div>
