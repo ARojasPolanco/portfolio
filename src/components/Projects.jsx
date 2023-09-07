@@ -87,8 +87,8 @@ const Projects = () => {
                             <div className="text-react">
                                 <i className='bx bxl-react' ></i>
                             </div>
-                            <div className="text-css">
-                                <i className='bx bxl-css3' ></i>
+                            <div className="text-tailwind">
+                                <i className='bx bxl-tailwind-css' ></i>
                             </div>
                             <div className="text-javascript">
                                 <i className='bx bxl-javascript' ></i>
@@ -119,8 +119,8 @@ const Projects = () => {
                             <div className="text-react">
                                 <i className='bx bxl-react' ></i>
                             </div>
-                            <div className="text-css">
-                                <i className='bx bxl-css3' ></i>
+                            <div className="text-tailwind">
+                                <i className='bx bxl-tailwind-css' ></i>
                             </div>
                             <div className="text-javascript">
                                 <i className='bx bxl-javascript' ></i>
@@ -151,8 +151,8 @@ const Projects = () => {
                             <div className="text-react">
                                 <i className='bx bxl-react' ></i>
                             </div>
-                            <div className="text-css">
-                                <i className='bx bxl-css3' ></i>
+                            <div className="text-tailwind">
+                                <i className='bx bxl-tailwind-css' ></i>
                             </div>
                             <div className="text-javascript">
                                 <i className='bx bxl-javascript' ></i>
@@ -183,8 +183,8 @@ const Projects = () => {
                             <div className="text-react">
                                 <i className='bx bxl-react' ></i>
                             </div>
-                            <div className="text-css">
-                                <i className='bx bxl-css3' ></i>
+                            <div className="text-tailwind">
+                                <i className='bx bxl-tailwind-css' ></i>
                             </div>
                             <div className="text-javascript">
                                 <i className='bx bxl-javascript' ></i>
