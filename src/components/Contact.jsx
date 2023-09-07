@@ -33,13 +33,19 @@ const Contact = ({ setShowModal }) => {
             </form>
             <article className='flex items-center justify-center gap-8 text-[40px] text-white'>
                 <div className='hover:scale-110 cursor-pointer'>
-                    <i className='bx bxl-whatsapp'></i>
+                    <a href=" https://w.app/U4A6g2" target='_blank'>
+                        <i className='bx bxl-whatsapp'></i>
+                    </a>
                 </div>
                 <div className='hover:scale-110 cursor-pointer'>
-                    <i className='bx bxl-github'></i>
+                    <a href="https://github.com/ARojasPolanco" target='_blank'>
+                        <i className='bx bxl-github'></i>
+                    </a>
                 </div>
                 <div className='hover:scale-110 cursor-pointer'>
-                    <i className='bx bxl-linkedin' ></i>
+                    <a href="https://ar.linkedin.com/" target='_blank'>
+                        <i className='bx bxl-linkedin' ></i>
+                    </a>
                 </div>
             </article>
         </section>
