@@ -19,7 +19,7 @@ function App() {
 
   return (
     <main className='relative bg-bg-300 min-h-screen w-full overflow-hidden font-inter'>
-      <div className='absolute left-0 blur-sm'>
+      <div className='absolute blur-[2px]'>
         <img src="/images/hand-bg.png" alt="" />
       </div>
       <section className='max-w-[700px] mx-auto border-[1px] border-very-light-blue rounded-md p-2'>
