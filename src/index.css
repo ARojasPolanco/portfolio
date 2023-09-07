@@ -17,3 +17,7 @@ html::-webkit-scrollbar-thumb {
     border-radius: 1rem;
     background-color: #82c6e6;
 }
+
+html {
+    scroll-behavior: smooth;
+}

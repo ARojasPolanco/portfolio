@@ -12,7 +12,7 @@ const Header = ({ handleShowNavbar }) => {
                     <button><i className='bx bx-chevrons-left' ></i></button>
                 </div>
             </article>
-            <section className="flex justify-center items-center gap-4 px-2 text-white font-montserrat max-[644px]:hidden">
+            <section className="flex justify-center items-center gap-4 px-2 text-white font-montserrat max-[644px]:hidden max-[660px]:gap-2">
                 <Link className="btn px-8" to="Home" smooth={true} duration={300}>
                     Inicio
                 </Link>
