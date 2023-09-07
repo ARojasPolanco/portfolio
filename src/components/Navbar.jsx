@@ -10,16 +10,16 @@ const Navbar = ({ handleShowNavbar }) => {
                         <button><i className='bx bx-chevrons-right' ></i></button>
                     </div>
                 </article>
-                <Link className="btn px-8" to="Home" smooth={true} duration={300}>
+                <Link onClick={handleShowNavbar} className="btn px-8" to="Home" smooth={true} duration={300}>
                     Inicio
                 </Link>
-                < Link className="btn" to="AboutMe" smooth={true} duration={300}>
+                < Link onClick={handleShowNavbar} className="btn" to="AboutMe" smooth={true} duration={300}>
                     Sobre mi
                 </Link>
-                <Link className="btn" to="Projects" smooth={true} duration={300}>
+                <Link onClick={handleShowNavbar} className="btn" to="Projects" smooth={true} duration={300}>
                     Proyectos
                 </Link>
-                <Link className="btn" to="Contact" smooth={true} duration={300}>
+                <Link onClick={handleShowNavbar} className="btn" to="Contact" smooth={true} duration={300}>
                     Contacto
                 </Link>
             </section>
